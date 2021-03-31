@@ -1,0 +1,95 @@
+body{
+    background-color: gainsboro;
+}
+
+.row{
+    width: 50vw;
+    height: 50vw;
+    background-color: white;
+    border: .1rem solid rgb(214, 214, 214);
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row__reverse{
+    width: 50vw;
+    height: 50vw;
+    background-color: white;
+    border: .1rem solid rgb(214, 214, 214);
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.column{
+    width: 50vw;
+    height: 50vw;
+    background-color: white;
+    border: .1rem solid rgb(214, 214, 214);
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.column__reverse{
+    width: 50vw;
+    height: 50vw;
+    background-color: white;
+    border: .1rem solid rgb(214, 214, 214);
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.menu{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: .3rem auto;
+}
+
+.menu__btn{
+    padding: 0 1rem 0 1rem;
+    background-color: burlywood;
+    margin: 0 1rem 0 1rem;
+    border-radius: 1rem;
+}
+
+.menu__btn:focus{
+    background-color: rgb(165, 224, 97);
+    outline:0;
+}
+
+.box{
+    width: 25%;
+    height: 25%;
+    background-color: yellowgreen;
+    border: .1rem solid white;
+    margin: 0 0 0 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.box2{
+    width: 25%;
+    height: 25%;
+    background-color: rgb(50, 78, 205);
+    border: .1rem solid white;
+    margin: 0 0 0 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.pair{
+    background-color: rgb(9, 175, 252);
+}
+
+.impair{
+    background-color: rgb(100, 223, 110);
+}
